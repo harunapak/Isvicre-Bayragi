@@ -1,0 +1,46 @@
+/* bayragimizin genel hatlari ve pozisyonu belirtilmistir.*/
+#bayrak{
+    position: relative;
+    left: 35%;
+    width: 490px;
+    height: 490px; 
+}
+/* Her bir karanin olculeri belirtilmis olup 100*100 px dir */
+.kare{
+    width: 100px;
+    height: 100px;
+}
+/* renk secimi olarak byragin orjinal renkleri esas alinmis olup HSl renk secicisi kullanilmistir. */
+.kirmizi{
+    background-color:#D52B1E;
+}
+.beyaz{
+    background-color:#FFFFFF;
+}
+/* ikinci siradan itibaren sutunlara margin left degeri verilmis olup kaydirma bu suretle saglanmistir */
+.sira2{
+    margin-top: -500px;
+    margin-left: 100px;
+}
+.sira3{
+    margin-top: -500px;
+    margin-left: 200px;
+}
+.sira4{
+    margin-top: -500px;
+    margin-left: 300px;
+}
+.sira5{
+    margin-top: -500px;
+    margin-left: 400px;
+}
+.baslik{
+    font-family:  "Times New Roman", Times, serif;
+}
+.text{
+    text-align: justify;
+    font-family:  "Tahoma", Geneva, sans-serif;
+    line-height: 1.2;
+    word-spacing: 5px;
+}
+    
